@@ -15,7 +15,21 @@ let questionBox=[{
     question:"What is full form of DOM?",
     options:["Document Data Model","Document Object mode","Document oriented model","Document Object Model"],
     correctAnswer:"Document Object Model",
-}]
+},
+{
+    id:"qa-4",
+    question:"Who developed JS?",
+    options:["Games Goosling","Brendon Eich","Tims Bernly","Bertboss"],
+    correctAnswer:"Games Goosling",
+},
+{
+    id:"qa-5",
+    question:"Which keyword is used to declare a variable in JavaScript?",
+    options:["var","let","const","All of these"],
+    correctAnswer:"All of these",
+}
+
+]
 
 let questionElement=document.getElementById("question")
 let optionElement=document.getElementById("option")
