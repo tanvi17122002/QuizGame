@@ -1,0 +1,66 @@
+/* Option 1: Sky Blue + White */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #c9d6ff, #e2e2e2); /* soft blue to white */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Option 2: Peach + Cream */
+/*
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f8cdda, #fbeee6); 
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+*/
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#question {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+#option {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+#option button {
+    padding: 10px;
+    font-size: 18px;
+    background-color:#2980b9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#option button:hover {
+    background-color: #2980b9;
+    transform: scale(1.03);
+}
+
+#score {
+    font-size: 20px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 10px;
+}
