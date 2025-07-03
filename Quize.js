@@ -20,7 +20,7 @@ let questionBox=[{
     id:"qa-4",
     question:"Who developed JS?",
     options:["Games Goosling","Brendon Eich","Tims Bernly","Bertboss"],
-    correctAnswer:"Games Goosling",
+    correctAnswer:"Brendon Eich",
 },
 {
     id:"qa-5",
